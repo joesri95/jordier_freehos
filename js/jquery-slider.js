@@ -1,0 +1,1 @@
+$(function(){var a=$("#ul_slide");$("#slider").prepend(a.clone()),a.remove(),a=$(".slide_Image"),a.css("display","none");var b=function(){var a=$(".slide_Image:first"),c=$(".introtext:first"),d=7e3;a.fadeIn("slow",function(){c.slideDown(d/6),c.delay(d-d/4).slideUp(d/6),$(this).delay(d).fadeOut("slow",function(){a.insertAfter($(".slide_Image:last")),b()})})};b()});

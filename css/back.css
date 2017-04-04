@@ -1,0 +1,23 @@
+.back > h1{
+    font-family: 'gloria_hallelujahregular';
+    font-size: 40pt;
+    text-align: center;
+    width: 80%;
+}
+#back{
+    display: block;
+}
+#back li{
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 20%;
+}
+#back li ul {
+    display: block;
+}
+#back li ul li{
+    position: relative;
+    display: block;
+    clear: both;
+}

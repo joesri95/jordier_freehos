@@ -1,0 +1,32 @@
+#section .intro{
+    width: 100%;
+    display: block;
+    margin: 2%;
+}
+.balls, .roba{
+    width: 100%;
+    display: block;
+    margin: 2%;
+}
+.curta, .llarga, .filera, .nourodades,.home, .dona{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+ .curta iframe, .filera iframe, .dona img{
+    display: inline;
+    margin: 0 5% 2% 2%;
+    float: left;
+    width: 500px;
+}
+ #sectiion p{
+    display: inline;
+    padding: 10px; 
+    width: 500px;
+}
+.llarga iframe, .nourodades iframe, .home img{
+    display: inline;
+    float: right;
+    width: 500px;
+    margin: 0 2% 5% 2%;
+}

@@ -1,0 +1,78 @@
+
+.form_hint, .required_notification {
+	font-size: 11px
+}
+.ul {
+    width:750px;
+    list-style-type:none;
+    list-style-position:outside;
+    margin:0px;
+    padding:0px;
+}
+
+.li{
+    padding:12px; 
+    position:relative;
+}
+ h2{
+    margin:0;
+    display: inline;
+}
+.required_notification {
+    color:#d45252; 
+    margin:5px 0 0 0; 
+    display:inline;
+    float:right;
+}
+
+label ,.submit{
+    width: 120px;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding:3px;
+    font-family: 'indie_flowerregular';
+    font-size: 16pt;
+    font-weight: bolder;
+}
+
+ input {
+    height:20px;  
+    width:220px; 
+    padding:5px 8px;
+}
+
+ textarea {padding:8px; width:300px;}
+ button {margin-left:156px;}
+
+
+ input,  textarea { 
+    border:1px solid #a049bc;
+    box-shadow: 0px 0px 3px #a049bc, 0 10px 15px #eee inset;
+    border-radius:2px;
+    color: #9acd03;
+}
+
+.form,.contact_form{
+    margin-top: 20px;
+}
+.submit{
+    border-radius: 2px;
+    background: #eee;
+    border: 1px solid #a049bc;
+    box-shadow: 0px 0px 3px #a049bc, 0 10px 15px #eee inset;
+}
+.submit:hover{
+    color: #9acd03;
+    border-color: #a049bc;
+}
+input:valid, textarea:valid{
+    border-color: #9acd03;
+}
+input:invalid, textarea:invalid{
+    border-color: #ad2a2a;
+}
+input:focus, textarea:focus {
+    border:1px solid #a049bc; 
+    box-shadow: 0 0 3px #a049bc, 0 10px 15px #a049bc; 
+}

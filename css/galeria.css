@@ -1,0 +1,18 @@
+.grid ul{
+	display: flex;
+    margin: 5px;
+    position: relative;
+    align-content: stretch;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+li a.gal{
+    display: flex;
+    margin: 5px;
+    float: left;
+    position: relative;
+    flex-direction: column;
+    align-self: flex-start;
+    
+}
